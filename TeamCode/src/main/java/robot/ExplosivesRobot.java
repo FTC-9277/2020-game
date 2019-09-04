@@ -12,11 +12,13 @@ public class ExplosivesRobot {
 
     public ExplosivesRobot(OpMode op) {
         opMode = op;
+    }
 
-        fleft = op.hardwareMap.get(DcMotor.class, "fleft");
-        bleft = op.hardwareMap.get(DcMotor.class, "bleft");
-        bright = op.hardwareMap.get(DcMotor.class, "bright");
-        fright = op.hardwareMap.get(DcMotor.class, "fright");
+    public void init() {
+        fleft = opMode.hardwareMap.get(DcMotor.class, "fleft");
+        bleft = opMode.hardwareMap.get(DcMotor.class, "bleft");
+        bright = opMode.hardwareMap.get(DcMotor.class, "bright");
+        fright = opMode.hardwareMap.get(DcMotor.class, "fright");
     }
 
 }

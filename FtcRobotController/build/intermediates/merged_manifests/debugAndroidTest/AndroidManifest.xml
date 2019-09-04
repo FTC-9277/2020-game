@@ -15,6 +15,12 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
         android:name="android.permission.ACCESS_WIFI_STATE"
         android:required="true" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -30,13 +36,7 @@
     <uses-permission
         android:name="android.permission.ACCESS_NETWORK_STATE"
         android:required="true" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:required="true" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:required="true" /> <!-- Classified as System Permission in SDK 26 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- Classified as System Permission in SDK 26 -->
     <uses-permission
         android:name="android.permission.WRITE_SETTINGS"
         android:required="true" /> <!-- see AppUtil.setTimeZone() -->

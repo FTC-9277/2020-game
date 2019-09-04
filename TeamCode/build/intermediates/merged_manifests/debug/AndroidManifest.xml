@@ -16,6 +16,12 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission
         android:name="android.permission.ACCESS_WIFI_STATE"
         android:required="true" />
     <uses-permission
@@ -30,12 +36,6 @@
         android:required="true" />
     <uses-permission
         android:name="android.permission.INTERNET"
-        android:required="true" /> <!-- Classified as Dangerous Permission in SDK 26 -->
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:required="true" /> <!-- Classified as Dangerous Permission in SDK 26 -->
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:required="true" /> <!-- Classified as System Permission in SDK 26 -->
     <uses-permission
         android:name="android.permission.WRITE_SETTINGS"
