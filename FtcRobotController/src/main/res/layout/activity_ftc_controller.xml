@@ -49,12 +49,27 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     android:background="@color/background_black">
 
     <ImageView
-      android:id="@+id/robotIcon"
-      android:src="@drawable/icon_robotcontroller"
-      android:layout_width="wrap_content"
-      android:layout_height="fill_parent"
-      android:adjustViewBounds="true"
-      android:layout_margin="1dp"/>
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/robotIcon"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/robotIcon"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:src="@drawable/explosivesflower" />
+
+    <ImageView
+        android:id="@+id/robotIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/icon_robotcontroller" />
 
     <TextView
       android:id="@+id/textDeviceName"
@@ -80,6 +95,25 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       android:layout_centerHorizontal="true"
       android:layout_margin="10dp"/>
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/robotIcon"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignEnd="@id/menu_buttons"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="110dp"
+        android:ems="10"
+        android:fontFamily="@font/carter_one"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="         9277 Explosives"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
   </RelativeLayout>
   <!-- end of black bar -->
 

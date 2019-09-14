@@ -9,28 +9,21 @@ import java.util.ArrayList;
 import recorder.RecordMotor;
 import recorder.Recorder;
 import robot.ExplosivesRobot;
+import robot.SmolBoi;
 
 @Autonomous(name = "Playback Test")
 public class RecordTest extends LinearOpMode {
 
-    ExplosivesRobot robot;
+    SmolBoi robot;
 
     @Override
     public void runOpMode() throws InterruptedException {
 
-        robot = new ExplosivesRobot(this);
+        robot = new SmolBoi(this);
+        robot.init();
 
         waitForStart();
 
-        Recorder recorder = new Recorder();
 
-        ArrayList<RecordMotor> motors = new ArrayList<RecordMotor>() {{
-            add(new RecordMotor("bleft", robot.bleft));
-            add(new RecordMotor("bright", robot.bright));
-            add(new RecordMotor("fleft", robot.fleft));
-            add(new RecordMotor("fright", robot.fright));
-        }};
-
-        recorder.record("first", motors);
     }
 }

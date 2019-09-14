@@ -3,6 +3,8 @@ package autos;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
+import robot.ExplosivesRobot;
+
 @Autonomous(name = "Null")
 public class NullAuto extends LinearOpMode {
     @Override
