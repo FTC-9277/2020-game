@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import robot.ExplosivesRobot;
 
-@Autonomous(name = "Null")
+@Autonomous(name = "Null Auto")
 public class NullAuto extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {

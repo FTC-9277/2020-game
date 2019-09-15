@@ -83,14 +83,14 @@ public class ExplosivesRobot {
     public void strafe(double speed, Direction direction) {
         if (driveTrain == DriveTrainType.MECANUM) {
             if(direction == Direction.RIGHT) {
-                fleft.setPower(-speed);
+                fleft.setPower(speed);
                 bleft.setPower(-speed);
-                fright.setPower(speed);
+                fright.setPower(-speed);
                 bright.setPower(speed);
             } else {
-                fleft.setPower(speed);
+                fleft.setPower(-speed);
                 bleft.setPower(speed);
-                fright.setPower(-speed);
+                fright.setPower(speed);
                 bright.setPower(-speed);
             }
         }
