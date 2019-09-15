@@ -24,6 +24,7 @@ public class SmolBoiTeleOp extends OpMode {
 //            add(new RecordMotor("bright", robot.bright));
 //            add(new RecordMotor("fleft", robot.fleft));
 //            add(new RecordMotor("fright", robot.fright));
+//            add(new RecordMotor("bleft", robot.bleft));
         }};
 
         recorder.record("first", motors);
