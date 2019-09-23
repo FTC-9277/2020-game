@@ -28,13 +28,24 @@ public class FullTele extends OpMode {
 //            robot.stop();
 //        }
 
-        double drive = (1 - gamepad1.left_stick_y);
-        double strafe = gamepad1.left_stick_x;
-        double rotate = gamepad1.right_stick_x;
+        if(Math.abs(gamepad1.left_stick_y) > 0.2 || Math.abs(gamepad1.left_stick_x) > 0.2 || Math.abs(gamepad1.right_stick_x) > 0.2) {
+            robot.fleft.setPower(-(gamepad1.left_stick_y-gamepad1.left_stick_x) - gamepad1.right_stick_x);
+            robot.bleft.setPower((gamepad1.left_stick_y+gamepad1.left_stick_x) + gamepad1.right_stick_x);
+            robot.fright.setPower((gamepad1.left_stick_y+gamepad1.left_stick_x) - gamepad1.right_stick_x);
+            robot.bright.setPower(-(gamepad1.left_stick_y-gamepad1.left_stick_x) + gamepad1.right_stick_x);
+        } else {
+            robot.stop();
+        }
 
-        robot.fleft.setPower(drive+strafe+rotate);
-        robot.bleft.setPower(drive-strafe+rotate);
-        robot.fright.setPower(drive-strafe-rotate);
-        robot.bright.setPower(drive+strafe-rotate);
+        if(gamepad1.left_bumper) {
+            robot.left.setPower(1);
+            robot.right.setPower(1);
+        } else if(gamepad1.right_bumper) {
+            robot.left.setPower(-1);
+            robot.right.setPower(-1);
+        } else {
+            robot.left.setPower(0.0);
+            robot.right.setPower(0.0);
+        }
     }
 }

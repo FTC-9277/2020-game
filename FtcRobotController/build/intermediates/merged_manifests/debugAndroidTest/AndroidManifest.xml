@@ -86,7 +86,10 @@
         <!-- Indicates to the ControlHubUpdater what the latest version of the Control Hub is that this app supports -->
         <meta-data
             android:name="org.firstinspires.latestSupportedControlHubVersion"
-            android:value="1" /> <!-- The main robot controller activity -->
+            android:value="1" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" /> <!-- The main robot controller activity -->
         <activity
             android:name="org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper"
             android:configChanges="orientation|screenSize"

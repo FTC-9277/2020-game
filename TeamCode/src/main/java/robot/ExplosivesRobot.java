@@ -1,6 +1,7 @@
 package robot;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareDevice;
@@ -13,6 +14,7 @@ public class ExplosivesRobot {
     private OpMode opMode = null;
 
     public DcMotor fleft, bleft, bright, fright;
+    public CRServo left, right;
 
     private ArrayList<DcMotor> allMotors = new ArrayList<>();
 
@@ -36,6 +38,8 @@ public class ExplosivesRobot {
         bleft = opMode.hardwareMap.get(DcMotor.class, "bleft");
         bright = opMode.hardwareMap.get(DcMotor.class, "bright");
         fright = opMode.hardwareMap.get(DcMotor.class, "fright");
+        left = opMode.hardwareMap.get(CRServo.class, "left");
+        right = opMode.hardwareMap.get(CRServo.class, "right");
 
         allMotors.add(fleft);
         allMotors.add(bleft);
@@ -44,6 +48,7 @@ public class ExplosivesRobot {
 
         fright.setDirection(DcMotorSimple.Direction.REVERSE);
         fleft.setDirection(DcMotorSimple.Direction.REVERSE);
+        left.setDirection(DcMotorSimple.Direction.REVERSE);
     }
 
     public void setDriveTrainType(DriveTrainType type) {

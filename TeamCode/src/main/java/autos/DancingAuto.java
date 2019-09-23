@@ -65,10 +65,7 @@ public class DancingAuto extends LinearOpMode {
         }
     }
 
-    public void wait(int millis) {
-        long end = System.currentTimeMillis() + millis;
-        while (System.currentTimeMillis() > end) {
-            //Do nothing
-        }
+    public void wait(int millis) throws InterruptedException {
+        Thread.sleep(millis);
     }
 }

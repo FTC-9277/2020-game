@@ -1,133 +1,133 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:1-69:12
 	package
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:4:11-52
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:4:11-52
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:6:11-36
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:6:11-36
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:3:11-57
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:3:11-57
 	xmlns:android
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:5:11-35
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:5:11-35
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:8:3-79
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:8:3-79
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:8:20-76
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:8:20-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:9:3-78
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:9:3-78
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:9:20-75
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:9:20-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:10:3-79
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:10:3-79
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:10:20-76
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:10:20-76
 application
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:12:3-67:17
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:12:3-67:17
 	android:label
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:16:5-37
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:16:5-37
 	android:largeHeap
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:14:5-29
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:14:5-29
 	android:icon
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:15:5-41
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:15:5-41
 	android:allowBackup
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:13:5-31
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:13:5-31
 	android:theme
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:17:5-41
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:17:5-41
 meta-data#org.firstinspires.latestSupportedControlHubVersion
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:20:5-22:29
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:20:5-22:29
 	android:value
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:22:9-26
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:22:9-26
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:21:9-74
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:21:9-74
 meta-data#preloaded_fonts
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:23:5-25:53
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:23:5-25:53
 	android:resource
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:25:9-50
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:24:9-39
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:24:9-39
 activity#org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:28:5-39:16
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:28:5-39:16
 	android:screenOrientation
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:29:15-51
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:29:15-51
 	android:label
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:31:15-47
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:31:15-47
 	android:launchMode
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:32:15-46
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:32:15-46
 	android:configChanges
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:30:15-61
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:30:15-61
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:28:15-103
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:28:15-103
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:34:7-37:23
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:34:7-37:23
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:35:9-69
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:35:9-69
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:35:19-66
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:35:19-66
 action#android.intent.action.MAIN
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:36:9-61
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:36:9-61
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:36:17-58
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:36:17-58
 activity#org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:41:5-60:16
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:41:5-60:16
 	android:screenOrientation
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:43:7-43
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:43:7-43
 	android:label
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:45:7-39
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:45:7-39
 	android:launchMode
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:46:7-38
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:46:7-38
 	android:configChanges
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:44:7-53
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:44:7-53
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:42:7-95
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:42:7-95
 intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:48:7-50:23
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:48:7-50:23
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:49:9-82
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:49:9-82
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:49:17-79
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:49:17-79
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:52:7-54:49
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:52:7-54:49
 	android:resource
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:54:9-46
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:54:9-46
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:53:9-71
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:53:9-71
 meta-data#org.firstinspires.main.entry
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:57:7-59:34
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:57:7-59:34
 	android:value
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:59:11-31
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:59:11-31
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:58:11-54
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:58:11-54
 service#com.qualcomm.ftccommon.FtcRobotControllerService
-ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:63:5-65:32
+ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:63:5-65:32
 	android:enabled
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:65:7-29
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:65:7-29
 	android:name
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml:64:7-70
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml:64:7-70
 uses-sdk
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
-		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game-master/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/LHPS/General/Robotics Team/2019-2020/2020-game/FtcRobotController/src/main/AndroidManifest.xml
