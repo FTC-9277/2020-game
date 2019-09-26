@@ -1,5 +1,6 @@
 package robot;
 
+import com.qualcomm.hardware.bosch.BNO055IMU;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -14,7 +15,8 @@ public class ExplosivesRobot {
     private OpMode opMode = null;
 
     public DcMotor fleft, bleft, bright, fright;
-    public CRServo left, right;
+    public Gyro gyro;
+//    public CRServo left, right;
 
     private ArrayList<DcMotor> allMotors = new ArrayList<>();
 
@@ -38,17 +40,19 @@ public class ExplosivesRobot {
         bleft = opMode.hardwareMap.get(DcMotor.class, "bleft");
         bright = opMode.hardwareMap.get(DcMotor.class, "bright");
         fright = opMode.hardwareMap.get(DcMotor.class, "fright");
-        left = opMode.hardwareMap.get(CRServo.class, "left");
-        right = opMode.hardwareMap.get(CRServo.class, "right");
+//        left = opMode.hardwareMap.get(CRServo.class, "left");
+//        right = opMode.hardwareMap.get(CRServo.class, "right");
 
         allMotors.add(fleft);
         allMotors.add(bleft);
         allMotors.add(bright);
         allMotors.add(fright);
 
+        gyro = new Gyro(opMode);
+
         fright.setDirection(DcMotorSimple.Direction.REVERSE);
         fleft.setDirection(DcMotorSimple.Direction.REVERSE);
-        left.setDirection(DcMotorSimple.Direction.REVERSE);
+//        left.setDirection(DcMotorSimple.Direction.REVERSE);
     }
 
     public void setDriveTrainType(DriveTrainType type) {
@@ -113,6 +117,32 @@ public class ExplosivesRobot {
             fright.setPower(-speed);
             bright.setPower(-speed);
         }
+    }
+
+    final int ALLOWED_ERROR = 10;
+
+    public void drive(double speed, int ticks) {
+        int initL = leftEncoders();
+        int initR = rightEncoders();
+
+        int targetL = initL+ticks;
+        int targetR = initR+ticks;
+
+        while(Math.abs(initR-targetR) > ALLOWED_ERROR && Math.abs(initL-targetL) > ALLOWED_ERROR) {
+            drive(speed);
+        }
+
+        stop();
+    }
+
+    //Returns the average of the left side
+    public int leftEncoders() {
+        return (fleft.getCurrentPosition()+bleft.getCurrentPosition())/2;
+    }
+
+    //Returns the average of the right side
+    public int rightEncoders() {
+        return (fright.getCurrentPosition()+bright.getCurrentPosition())/2;
     }
 
 
