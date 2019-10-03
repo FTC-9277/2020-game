@@ -15,7 +15,7 @@ public class ExplosivesRobot {
     private OpMode opMode = null;
 
     public DcMotor fleft, bleft, bright, fright;
-    public Gyro gyro;
+//    public Gyro gyro;
 //    public CRServo left, right;
 
     private ArrayList<DcMotor> allMotors = new ArrayList<>();
@@ -48,10 +48,10 @@ public class ExplosivesRobot {
         allMotors.add(bright);
         allMotors.add(fright);
 
-        gyro = new Gyro(opMode);
-
+//        gyro = new Gyro(opMode);
+//
         fright.setDirection(DcMotorSimple.Direction.REVERSE);
-        fleft.setDirection(DcMotorSimple.Direction.REVERSE);
+        bright.setDirection(DcMotorSimple.Direction.REVERSE);
 //        left.setDirection(DcMotorSimple.Direction.REVERSE);
     }
 

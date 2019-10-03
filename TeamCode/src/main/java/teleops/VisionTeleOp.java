@@ -6,8 +6,8 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import Vision.Sampler;
 import robot.ExplosivesRobot;
 
-@TeleOp(name = "FullTele")
-public class FullTele extends OpMode {
+@TeleOp(name = "Vision TeleOp")
+public class VisionTeleOp extends OpMode {
 
     ExplosivesRobot robot;
 
@@ -26,13 +26,28 @@ public class FullTele extends OpMode {
     public void loop() {
 
         if(Math.abs(gamepad1.left_stick_y) > 0.2 || Math.abs(gamepad1.left_stick_x) > 0.2 || Math.abs(gamepad1.right_stick_x) > 0.2) {
-            robot.fleft.setPower(-(gamepad1.left_stick_y+gamepad1.left_stick_x) + gamepad1.right_stick_x);
+            robot.fleft.setPower(-(gamepad1.left_stick_y+gamepad1.left_stick_x) - gamepad1.right_stick_x);
             robot.bleft.setPower((gamepad1.left_stick_y-gamepad1.left_stick_x) + gamepad1.right_stick_x);
             robot.fright.setPower((gamepad1.left_stick_y+gamepad1.left_stick_x) - gamepad1.right_stick_x);
-            robot.bright.setPower(-(gamepad1.left_stick_y-gamepad1.left_stick_x) - gamepad1.right_stick_x);
+            robot.bright.setPower(-(gamepad1.left_stick_y-gamepad1.left_stick_x) + gamepad1.right_stick_x);
         } else {
             robot.stop();
         }
 
+        telemetry.addData("Vision: ", vision);
+
+        boolean going = false;
+        if(gamepad1.a) {
+//            telemetry.addData("THING: ", sampler.sample());
+            vision = sampler.sample();
+            if(going == false) {
+                going = true;
+            }
+        }
+
+//        telemetry.addData("Heading: ", robot.gyro.heading());
+//        telemetry.addData("Pitch: ", robot.gyro.pitch());
+//        telemetry.addData("Roll: ", robot.gyro.roll());
+//        telemetry.addData("Angle: ", robot.gyro.getAngle());
     }
 }
