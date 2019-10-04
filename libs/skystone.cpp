@@ -98,6 +98,28 @@ JNIEXPORT jint JNICALL Java_org_firstinspires_ftc_teamcode_Vision_nativePipeline
 //True Skystone
 //False Stone
 int sample(int y, int w[2]) {
+
+    //Find range
+    int w_start = 2*(my_struct.w/5);
+    int w_end = 3*(my_struct.w/5);
+    int h_start = 2*(my_struct.h/5);
+    int h_start = 3*(my_struct.h/5);
+
+    //Check to see if the average is above this value
+    int average_threshold = 0.8;
+
+    int num_black = 0;
+
+    for(int i = h_start; i < h_end; i++) {
+    //For each row
+        for(int j = w_start; j < w_end; j++) {
+            //For each column
+            if(isBlack())
+        }
+    }
+
+
+
     return 5939;
 //    return 738845;
 //    if (y > w[0] && y > w[1]){

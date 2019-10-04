@@ -7,6 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareDevice;
 import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.Servo;
 
 import java.util.ArrayList;
 
@@ -15,6 +16,7 @@ public class ExplosivesRobot {
     private OpMode opMode = null;
 
     public DcMotor fleft, bleft, bright, fright;
+    public Servo hook;
 //    public Gyro gyro;
 //    public CRServo left, right;
 
@@ -40,6 +42,8 @@ public class ExplosivesRobot {
         bleft = opMode.hardwareMap.get(DcMotor.class, "bleft");
         bright = opMode.hardwareMap.get(DcMotor.class, "bright");
         fright = opMode.hardwareMap.get(DcMotor.class, "fright");
+
+        hook = opMode.hardwareMap.get(Servo.class, "HOOKER");
 //        left = opMode.hardwareMap.get(CRServo.class, "left");
 //        right = opMode.hardwareMap.get(CRServo.class, "right");
 
@@ -92,13 +96,13 @@ public class ExplosivesRobot {
     public void strafe(double speed, Direction direction) {
         if (driveTrain == DriveTrainType.MECANUM) {
             if(direction == Direction.RIGHT) {
-                fleft.setPower(speed);
-                bleft.setPower(-speed);
+                fleft.setPower(-speed);
+                bleft.setPower(speed);
                 fright.setPower(-speed);
                 bright.setPower(speed);
             } else {
-                fleft.setPower(-speed);
-                bleft.setPower(speed);
+                fleft.setPower(speed);
+                bleft.setPower(-speed);
                 fright.setPower(speed);
                 bright.setPower(-speed);
             }
@@ -143,6 +147,15 @@ public class ExplosivesRobot {
     //Returns the average of the right side
     public int rightEncoders() {
         return (fright.getCurrentPosition()+bright.getCurrentPosition())/2;
+    }
+
+
+    public void hook() {
+        hook.setPosition(1.0);
+    }
+
+    public void unhook() {
+        hook.setPosition(0.0);
     }
 
 
