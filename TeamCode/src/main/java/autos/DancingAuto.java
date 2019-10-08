@@ -82,7 +82,9 @@ public class DancingAuto extends LinearOpMode {
             wait(1000);
 
             robot.stop();
-            
+
+            wait(1000);
+
 
             robot.drive(0.5);
             wait(300);
@@ -98,6 +100,8 @@ public class DancingAuto extends LinearOpMode {
             wait(1000);
 
             robot.stop();
+
+            wait(1000);
 
         }
 

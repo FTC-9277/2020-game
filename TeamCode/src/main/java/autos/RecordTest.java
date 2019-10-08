@@ -11,7 +11,7 @@ import recorder.Recorder;
 import robot.ExplosivesRobot;
 import robot.SmolBoi;
 
-@Autonomous(name = "Record Test")
+//@Autonomous(name = "Record Test")
 public class RecordTest extends LinearOpMode {
 
     SmolBoi robot;

@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import recorder.Player;
 
-@Autonomous(name = "Playback Test")
+//@Autonomous(name = "Playback Test")
 public class PlaybackTest extends LinearOpMode {
 
     @Override

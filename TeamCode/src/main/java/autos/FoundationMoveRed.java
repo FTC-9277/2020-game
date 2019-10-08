@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import robot.ExplosivesRobot;
 
-@Autonomous(name = "Foundation Move Blue")
+@Autonomous(name = "RED - Foundation Move")
 public class FoundationMoveRed extends LinearOpMode {
 
     ExplosivesRobot robot;
@@ -18,8 +18,8 @@ public class FoundationMoveRed extends LinearOpMode {
 
         waitForStart();
 
-        robot.strafe(1.0, ExplosivesRobot.Direction.RIGHT);
-        wait(1500);
+        robot.strafe(0.5, ExplosivesRobot.Direction.RIGHT);
+        wait(3000);
         robot.stop();
 
         wait(500);
@@ -28,8 +28,8 @@ public class FoundationMoveRed extends LinearOpMode {
 
         wait(1000);
 
-        robot.strafe(1.0, ExplosivesRobot.Direction.LEFT);
-        wait(2000);
+        robot.strafe(0.5, ExplosivesRobot.Direction.LEFT);
+        wait(4000);
         robot.stop();
 
         robot.unhook();

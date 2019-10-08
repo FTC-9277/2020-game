@@ -15,7 +15,7 @@ public class ExplosivesRobot {
 
     private OpMode opMode = null;
 
-    public DcMotor fleft, bleft, bright, fright;
+    public DcMotor fleft, bleft, bright, fright;//, intake;
     public Servo hook;
 //    public Gyro gyro;
 //    public CRServo left, right;
@@ -43,7 +43,9 @@ public class ExplosivesRobot {
         bright = opMode.hardwareMap.get(DcMotor.class, "bright");
         fright = opMode.hardwareMap.get(DcMotor.class, "fright");
 
-        hook = opMode.hardwareMap.get(Servo.class, "HOOKER");
+//        intake = opMode.hardwareMap.get(DcMotor.class, "intake");
+
+        hook = opMode.hardwareMap.get(Servo.class, "hook");
 //        left = opMode.hardwareMap.get(CRServo.class, "left");
 //        right = opMode.hardwareMap.get(CRServo.class, "right");
 
@@ -57,6 +59,8 @@ public class ExplosivesRobot {
         fright.setDirection(DcMotorSimple.Direction.REVERSE);
         bright.setDirection(DcMotorSimple.Direction.REVERSE);
 //        left.setDirection(DcMotorSimple.Direction.REVERSE);
+
+        unhook();
     }
 
     public void setDriveTrainType(DriveTrainType type) {
@@ -64,6 +68,7 @@ public class ExplosivesRobot {
     }
 
     public void drive(double speed) {
+        speed = -speed;
         if(speed<=1&&speed>=-1) {
             fleft.setPower(speed);
             fright.setPower(speed);
@@ -95,7 +100,7 @@ public class ExplosivesRobot {
 
     public void strafe(double speed, Direction direction) {
         if (driveTrain == DriveTrainType.MECANUM) {
-            if(direction == Direction.RIGHT) {
+            if(direction == Direction.LEFT) {
                 fleft.setPower(-speed);
                 bleft.setPower(speed);
                 fright.setPower(-speed);
@@ -151,11 +156,11 @@ public class ExplosivesRobot {
 
 
     public void hook() {
-        hook.setPosition(1.0);
+//        hook.setPosition(1.0);
     }
 
     public void unhook() {
-        hook.setPosition(0.0);
+//        hook.setPosition(0.0);
     }
 
 

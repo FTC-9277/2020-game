@@ -6,8 +6,8 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import Vision.Sampler;
 import robot.ExplosivesRobot;
 
-@TeleOp(name = "FullTeleOp")
-public class FullTele extends OpMode {
+//@TeleOp(name = "FullTele NO HOOK (ONLY USE IF NO HOOK)")
+public class FullTeleSansHook extends OpMode {
 
     ExplosivesRobot robot;
 
@@ -33,20 +33,6 @@ public class FullTele extends OpMode {
         } else {
             robot.stop();
         }
-
-        if(gamepad2.left_bumper) {
-            robot.hook();
-        } else if (gamepad2.right_bumper) {
-            robot.unhook();
-        }
-//
-//        if(gamepad2.left_trigger >= 0.3) {
-//            robot.intake.setPower(gamepad2.left_trigger);
-//        } else if(gamepad2.right_trigger >= 0.3) {
-//            robot.intake.setPower(gamepad2.right_trigger);
-//        } else {
-//            robot.intake.setPower(0.0);
-//        }
 
     }
 }
