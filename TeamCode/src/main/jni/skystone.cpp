@@ -6,7 +6,7 @@
 #include <jni.h>
 
 extern "C" {
-JNIEXPORT jint JNICALL Java_Vision_nativePipeline_FloodFill(JNIEnv *env, jobject obj, jintArray arr, jint width, jint height);
+JNIEXPORT jboolean JNICALL Java_Vision_nativePipeline_Detect(JNIEnv *env, jobject obj, jintArray arr, jint width, jint height);
     int getRed(int c);
     int getGreen(int c);
     int getBlue(int c);
@@ -14,14 +14,14 @@ JNIEXPORT jint JNICALL Java_Vision_nativePipeline_FloodFill(JNIEnv *env, jobject
     bool isBlack(int c);
 //    bool isY(int r, int g, int b);
 //    bool isYellow(int c);
-    bool sample(int *pixels);
+    bool sample(int *pixels, int w, int h);
 }
 
 typedef struct my_struct_t {
 
     int w, h;
 
-    int yellow_threshold = 160;
+//    int yellow_threshold = 160;
     int black_threshold = 100;
 
     int *pixels;
@@ -31,51 +31,59 @@ typedef struct my_struct_t {
 my_struct_t my_struct;
 
 //public native int Detect(int[] a, int w, int h);
-JNIEXPORT jint JNICALL Java_Vision_nativePipeline_Detect(JNIEnv *env, jobject obj, jintArray arr, jint width, jint height) {
+JNIEXPORT jboolean JNICALL Java_Vision_nativePipeline_Detect(JNIEnv *env, jobject obj, jintArray arr, jint width, jint height) {
     jboolean * b;
 
-//    return 43214;
+    return true;
 
-    my_struct = my_struct_t();
-    my_struct.pixels = env->GetIntArrayElements(arr, b);
-
-    my_struct.w = (int) width;
-    my_struct.h = (int) height;
-
-    int output = sample(my_struct.pixels);
-
-    //RELEASE
-    env->ReleaseIntArrayElements(arr, my_struct.pixels, 0);
-
-    return output;
+//    my_struct = my_struct_t();
+//    my_struct.pixels = env->GetIntArrayElements(arr, b);
+//
+//    my_struct.w = (int) width;
+//    my_struct.h = (int) height;
+//
+//    bool output = sample(my_struct.pixels, (int) width, (int) height);
+//
+//    //RELEASE
+//    env->ReleaseIntArrayElements(arr, my_struct.pixels, 0);
+//
+//    return output;
 }
 
 //True Skystone
 //False Stone
-bool sample(int *pixels) {
+bool sample(int *pixels, int w, int h) {
 
     //Find range
-    int w_start = 2*(my_struct.w/5);
-    int w_end = 3*(my_struct.w/5);
-    int h_start = 2*(my_struct.h/5);
-    int h_end = 3*(my_struct.h/5);
+    int w_start = 2*(w/5);
+//    int w_start = 0;
+    int w_end = 3*(w/5);
+//    int w_end = w;
+    int h_start = 2*(h/5);
+//    int h_start = 0;
+    int h_end = 3*(h/5);
+//    int h_end = h;
+
+    int viewH = h_end-h_start;
+    int viewW = w_end-w_start;
 
     //Check to see if the average is above this value; RANGE: 0.0-1.0
-    int average_threshold = 0.5;
+    double average_threshold = 0.5;
 
     int num_black = 0;
 
-    for(int i = h_start; i < h_end; i++) {
+    for(int i = h_start; i < h_end; i = i + 1) {
         //For each row
-        for(int j = w_start; j < w_end; j++) {
+        for(int j = w_start; j < w_end; j = j + 1) {
             //For each column
-            if(isBlack(pixels[(i*my_struct.w)+j])) {
-                num_black++;
+            if(isBlack(pixels[(i*w)+j])) {
+                num_black = num_black + 1;
             }
         }
     }
 
-    if (num_black/(sizeof(pixels)) >= average_threshold) {
+
+    if (num_black/*/((w)*(h))*/ > ((viewH*viewW)/4)/*average_threshold(((w_end-w_start)*(h_end-h_start))/500)*/) {
         return true;
     } else {
         return false;
@@ -135,3 +143,35 @@ bool isB(int r, int g, int b) {
 int getRed  (int c){return ((c >> 16) & 0xff);}
 int getGreen(int c){return ((c >>  8) & 0xff);}
 int getBlue (int c){return ((c      ) & 0xff);}
+
+extern "C"
+JNIEXPORT jboolean JNICALL
+Java_Vision_nativePipeline_Java_1Vision_1nativePipeline_1Detect(JNIEnv *env, jobject instance,
+                                                                jintArray a_, jint w, jint h) {
+    jint *a = env->GetIntArrayElements(a_, NULL);
+
+    bool output = sample(a,w,h);
+    output = true;
+//
+//    output = true;
+//    bool output = isBlack(a[0]);
+//
+    env->ReleaseIntArrayElements(a_, a, 0);
+
+    return true;
+
+}
+
+extern "C"
+JNIEXPORT jboolean JNICALL
+Java_Vision_nativePipeline_Java_1Vision_1nativePipeline_1Sample(JNIEnv *env, jobject instance,
+                                                                jintArray a_, jint w, jint h) {
+    jint *a = env->GetIntArrayElements(a_, NULL);
+
+    bool output = sample(a,w,h);
+//    output = isBlack(a[0]);
+
+    env->ReleaseIntArrayElements(a_, a, 0);
+
+    return output;
+}

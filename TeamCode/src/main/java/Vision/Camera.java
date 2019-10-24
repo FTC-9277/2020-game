@@ -38,7 +38,7 @@ public class Camera {
         }
 
         //HAZMAT KEY
-        this.parameters.vuforiaLicenseKey = "AQX0J8v/////AAAAGZRPEwtYLUbljpFlk05IHDJdt2kTg7E8J7V0TlHB4v2Wj8UwHlZzgn4Fv3nA/sjxWSUVPX7/dILmxItMvkwIJqKTV3ZFHNPNLk8GAQYyRY8FExUIyTihu+qdD5P3inxdJ6dFnuMhU/k8Aj3ajV4OS9JKLtw6N2BkNKLGRM/VDsY6Qv+InZNEZ7hpH/zdJ1J8UXFqe67rSNH6nkQj9nhVmgWIbZQZSaSLCIJPc1i78FBrysjHxhvLmDfrk9tWSyB6mmKxDiO+6iL+lrVp1BnNSMMUTPIfNSma5scw48RFyCIpZ6/TxDev3VyVTGI+3RoIIli4PTEHlt9LFIIHP3WUsAuqq7MnTucj2uoinypj0b6K";
+        this.parameters.vuforiaLicenseKey = "AQO6Kaz/////AAABmdRW+ClM7EAjvcb5+/EslnlH1otFDS9Cw7xuHMuPZuOC4Xdupz9OruDx80AW4ed8KySJO0byAlMpDUDpf1U7KyBuU32dP77B1s4yFJUwpys74t/uDW5637aeb2JSv5OEgdkpbveoJAqAKwpVTrpiSqJtHcUrO86GTRs+8yax6cAOl/+vreCCtxTIIOJemO4d6lbmPsMogD6UChuk37/DyIn3PR63UpdeqUAd2os8p5rcot4X+52niYi3jOXww+ozM/+eOUJ7EXf5IGbWTXxwHkdNPHXRJhtvtcq6+Mhk+LSHG7cie8ZtQLX0RWtyPiosHdl6l6blv/svsuhCxaRDq+i8KMdVTnj/ud89VJecrM+X";
 
         this.parameters.cameraDirection = VuforiaLocalizer.CameraDirection.BACK;
         this.vuforia = ClassFactory.getInstance().createVuforia(parameters);

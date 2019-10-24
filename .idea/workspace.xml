@@ -18,15 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd25aae3-f0c1-4cfd-a227-f7ff97479321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/NewFoundationMoveBlue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/NewFoundationMoveRed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkBlue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkBlueBuildingZone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkRed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkRedBuildingZone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/teleops/FullTeleSansHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/jni/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/VisionAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/teleops/IntakeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -35,20 +30,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamCode/TeamCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/TeamCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Sampler.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Sampler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/Vision/nativePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/Vision/nativePipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/DancingAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/DancingAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/DrivingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/DrivingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/FoundationMoveBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/FoundationMoveBlue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/FoundationMoveRed.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/FoundationMoveRed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/PlaybackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/PlaybackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/RecordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/RecordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/teleops/FullTele.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/teleops/FullTele.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/teleops/VisionTeleOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/teleops/VisionTeleOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/skystone.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +55,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="223">
+              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
-                <element signature="e#70#86#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +79,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/teleops/VisionTeleOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="11" selection-start-line="27" selection-start-column="32" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="405">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/autos/VisionAuto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,26 +112,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/Sampler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="148">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="141" column="19" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/nativePipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -128,6 +139,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sample</find>
+      <find>Vision test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,13 +163,10 @@
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/teleops/MecanumTest.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/ExplosivesPackage2/ExplodingAuto.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/teleops/RecordTest.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/res/layout/activity_ftc_controller.xml" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/color.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/FloodFill.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/ImageSaver.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Sampler.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/robot/Gyro.java" />
         <option value="$PROJECT_DIR$/build.common.gradle" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/DancingAuto.java" />
@@ -170,7 +179,6 @@
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/DrivingTest.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/teleops/FullTeleSansHook.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/teleops/FullTele.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkBlueBuildingZone.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkRed.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkRedBuildingZone.java" />
@@ -179,8 +187,14 @@
         <option value="$PROJECT_DIR$/libs/skystone.cpp" />
         <option value="$PROJECT_DIR$/libs/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/teleops/VisionTeleOp.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Player.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/nativePipeline.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Sampler.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/autos/VisionAuto.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java" />
       </list>
     </option>
   </component>
@@ -195,6 +209,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -211,24 +227,18 @@
               <item name="2020-game" type="1abcf292:AndroidViewProjectNode" />
               <item name="TeamCode" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="Vision" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="teamcode" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="2020-game" type="1abcf292:AndroidViewProjectNode" />
               <item name="TeamCode" type="feadf853:AndroidModuleNode" />
-              <item name="cpp" type="9a30073f:AndroidJniFolderNode" />
-            </path>
-            <path>
-              <item name="2020-game" type="1abcf292:AndroidViewProjectNode" />
-              <item name="TeamCode" type="feadf853:AndroidModuleNode" />
-              <item name="jniLibs" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="robot" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -395,7 +405,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" x="574" y="69" width="291" height="721" id="Project" order="1" visible="true" weight="0.22031474" />
+      <window_info content_ui="combo" x="574" y="69" width="291" height="721" id="Project" order="1" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -403,13 +413,14 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.3125" />
-      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" order="5" visible="true" weight="0.3125" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -429,36 +440,10 @@
     <MESSAGE value="Added Gyro and started Auto methods" />
     <MESSAGE value="Added Vision code that doesnt work" />
     <MESSAGE value="Added Foundation autos and changed dancing auto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Foundation autos and changed dancing auto" />
+    <MESSAGE value="Working Vision!&#10;Started working on drive straight method. Not close to done yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Vision!&#10;Started working on drive straight method. Not close to done yet." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/SkyStone-master/TeamCode/src/main/java/robot/ExplosivesRobot.java" />
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teachClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/robot/SmolBoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java" />
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/recorder/Recorder.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -479,16 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/ExplosivesPackage2/ExplodingAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/ExplosivesPackage2/ExplodingAuto.java" />
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/recorder/Player.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -653,16 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/autos/ParkBlue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -713,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/teleops/FullTeleSansHook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -743,16 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.common.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#0#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build.common.gradle" />
     <entry file="file://$PROJECT_DIR$/FtcRobotController/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -762,15 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="file://$PROJECT_DIR$/libs/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/libs/skystone.cpp" />
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/jni/CMakeLists.txt">
@@ -797,10 +739,65 @@
     <entry file="file://$PROJECT_DIR$/FtcRobotController/build.release.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/teleops/IntakeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44fd29ff5a5f72db17c80084622ea014/jars/libs/Vuforia.jar!/com/vuforia/Image.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/teleops/VisionTeleOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="11" selection-start-line="27" selection-start-column="32" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="405">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/nativePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/autos/NullAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/autos/VisionAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -809,31 +806,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/Sampler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="148">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/Camera.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="141" column="19" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/Vision/nativePipeline.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/robot/ExplosivesRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/jni/skystone.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="48">
+          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
           <folding>
-            <element signature="e#70#86#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
