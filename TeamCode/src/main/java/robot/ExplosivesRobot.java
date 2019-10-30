@@ -17,9 +17,9 @@ public class ExplosivesRobot {
     private OpMode opMode = null;
 
     public DcMotor fleft, bleft, bright, fright;//, intake;
-    public DcMotor intake;
+//    public DcMotor intake;
     public Gyro gyro;
-//    public CRServo left, right;
+    public Servo hook;
 
     private ArrayList<DcMotor> allMotors = new ArrayList<>();
 
@@ -39,14 +39,16 @@ public class ExplosivesRobot {
     }
 
     public void init() {
-//        fleft = opMode.hardwareMap.get(DcMotor.class, "fleft");
-//        bleft = opMode.hardwareMap.get(DcMotor.class, "bleft");
-//        bright = opMode.hardwareMap.get(DcMotor.class, "bright");
-//        fright = opMode.hardwareMap.get(DcMotor.class, "fright");
+        fleft = opMode.hardwareMap.get(DcMotor.class, "fleft");
+        bleft = opMode.hardwareMap.get(DcMotor.class, "bleft");
+        bright = opMode.hardwareMap.get(DcMotor.class, "bright");
+        fright = opMode.hardwareMap.get(DcMotor.class, "fright");
 
 //        intake = opMode.hardwareMap.get(DcMotor.class, "intake");
 
-        intake = opMode.hardwareMap.get(DcMotor.class, "intake");
+        hook = opMode.hardwareMap.get(Servo.class,"hooker");
+
+//        intake = opMode.hardwareMap.get(DcMotor.class, "intake");
 //        left = opMode.hardwareMap.get(CRServo.class, "left");
 ////        right = opMode.hardwareMap.get(CRServo.class, "right");
 
@@ -57,8 +59,8 @@ public class ExplosivesRobot {
 
         gyro = new Gyro(opMode);
 
-//        fright.setDirection(DcMotorSimple.Direction.REVERSE);
-//        bright.setDirection(DcMotorSimple.Direction.REVERSE);
+        fright.setDirection(DcMotorSimple.Direction.REVERSE);
+        bright.setDirection(DcMotorSimple.Direction.REVERSE);
 //        left.setDirection(DcMotorSimple.Direction.REVERSE);
 
         unhook();
@@ -102,21 +104,21 @@ public class ExplosivesRobot {
     public void strafe(double speed, Direction direction) {
         if (driveTrain == DriveTrainType.MECANUM) {
             if(direction == Direction.LEFT) {
-                fleft.setPower(-speed);
-                bleft.setPower(speed);
                 fright.setPower(-speed);
                 bright.setPower(speed);
-            } else {
                 fleft.setPower(speed);
                 bleft.setPower(-speed);
+            } else {
                 fright.setPower(speed);
                 bright.setPower(-speed);
+                fleft.setPower(-speed);
+                bleft.setPower(speed);
             }
         }
     }
 
     public void turn(double speed, Direction direction) {
-        if (direction == Direction.LEFT) {
+        if (direction == Direction.RIGHT) {
             fleft.setPower(-speed);
             bleft.setPower(-speed);
             fright.setPower(speed);
@@ -167,48 +169,73 @@ public class ExplosivesRobot {
 
 
     public void hook() {
-//        hook.setPosition(1.0);
+        hook.setPosition(1.0);
     }
 
     public void unhook() {
-//        hook.setPosition(0.0);
+        hook.setPosition(0.0);
     }
 
     ///INCOMPLETE
-    public void driveStraight(int ticks) {
+    public void driveStraight ( int ticks){
 
         double SPEED = 0.75;
 
         //Original encoder value
         int orgEnc = avgEncoder();
-        int target = orgEnc+ticks;
+        int target = orgEnc + ticks;
 
         //Original gyro values
         double orgGyro = gyro.heading();
 
         //While encoders are 15 away from target or more
-        while(Math.abs(target-avgEncoder()) > 15) {
+        while (Math.abs(target - avgEncoder()) > 15) {
 
-            double difference = orgGyro-gyro.heading();
+            opMode.telemetry.addData("bleft: ", bleft.getCurrentPosition());
+            opMode.telemetry.addData("fleft: ", fleft.getCurrentPosition());
+            opMode.telemetry.addData("bright: ", bright.getCurrentPosition());
+            opMode.telemetry.addData("fright: ", fright.getCurrentPosition());
+            opMode.telemetry.addData("Avg: ", avgEncoder());
+            opMode.telemetry.update();
+
+//            //The higher, the more it will move
+//            double multiplier = 50;
+//
+//            //Positive is clockwise, negative is counterclockwise
+//            double difference = (orgGyro - gyro.heading());
+//
+//            double ADJSPEED = SPEED * ((multiplier / 100) * (difference / 100));
+//            if (difference > 0) {
+//                lDrive(SPEED);
+//                rDrive(ADJSPEED);
+//            } else {
+//                lDrive(ADJSPEED);
+//                rDrive(SPEED);
+//            }
 
             lDrive(SPEED);
             rDrive(SPEED);
+
+
         }
+
+        stop();
     }
 
     //Number of ticks to allow the encoder to differ from 0 before counting them as broken
-    private int ENCODER_FAILURE_ALLOWANCE = 10;
+    int ENCODER_FAILURE_ALLOWANCE = 10;
 
-    public int avgEncoder() {
-        if(leftEncoders() == 0 && Math.abs(rightEncoders()) > ENCODER_FAILURE_ALLOWANCE) {
-            //Left is probably broken
-            return rightEncoders();
-        } else if (rightEncoders() == 0 && Math.abs(rightEncoders()) > ENCODER_FAILURE_ALLOWANCE) {
-            //Right is probably broken
-            return leftEncoders();
-        } else {
-            return (leftEncoders()+rightEncoders())/2;
-        }
+    public int avgEncoder () {
+//        if (leftEncoders() == 0 && Math.abs(rightEncoders()) > ENCODER_FAILURE_ALLOWANCE) {
+//            //Left is probably broken
+//            return rightEncoders();
+//        } else if (rightEncoders() == 0 && Math.abs(rightEncoders()) > ENCODER_FAILURE_ALLOWANCE) {
+//            //Right is probably broken
+//            return leftEncoders();
+//        } else {
+//            return (leftEncoders() + rightEncoders()) / 2;
+//        }
+        return bright.getCurrentPosition();
     }
 
 }

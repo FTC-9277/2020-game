@@ -11,6 +11,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 import org.firstinspires.ftc.robotcore.external.navigation.Position;
 
+//COUNTERCLOCKWISE IS POSITIVE, CLOCKWISE IS NEGATIVE
 public class Gyro {
 
     public BNO055IMU imu;
